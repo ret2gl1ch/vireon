@@ -1,0 +1,13 @@
+# vireon/Cargo.toml
+[workspace]
+members = [
+    "crates/vireon-core",
+    "crates/vireon-storage",
+    "crates/vireon-engine",
+    "crates/vireon-pam",
+    "crates/vireon-daemon",
+    "crates/vireon-gateway",
+    "crates/vireon-cli",
+    "crates/vireon-common"
+]
+resolver = "2"
