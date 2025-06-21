@@ -1,7 +1,7 @@
 # Vireon Architecture Overview
 
-Vireon is modular Face ID system for Linux written in Rust/usr/lib/qt6/plugins/kf6/parts/katepart.so
-/usr/lib/qt/plugins/kf5/parts/katepart.so. Its goals are:
+Vireon is modular Face ID system for Linux written in Rust.
+Its goals are:
 - Privacy-preserving biometric auth;
 - Secure storage of face embedding;
 - Extensibility via modules;
