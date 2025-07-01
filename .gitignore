@@ -1,0 +1,35 @@
+# === Rust / Cargo ===
+/target
+**/*.rs.bk
+**/*.swp
+**/*.swo
+Cargo.lock
+
+# === IDE / Editor ===
+# VSCode
+.vscode/
+/.idea/
+/*.code-workspace
+
+# === Backup / System files ===
+*.log
+*.tmp
+*.bak
+*.old
+.DS_Store
+Thumbs.db
+
+# === CI / Build scripts ===
+/coverage/
+/dist/
+/build/
+
+# === Artifacts ===
+/*.deb
+/*.rpm
+/*.tar.gz
+*.crate
+
+# === Misc ===
+*.env
+.env.*

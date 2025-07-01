@@ -1,0 +1,9 @@
+[workspace]
+resolver = "3"
+members = [
+    "vireon-core",
+    "vireon-cli",
+    "vireon-pam",
+    "vireon-daemon",
+]
+
