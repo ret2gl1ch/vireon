@@ -1,14 +1,7 @@
-pub fn greet() -> &'static str {
-    "Hello from vireon-core"
-}
+pub mod config;
 
-#[cfg(test)]
-mod test {
+use config::yaml::Config;
 
-    use super::*;
-
-    #[allow(dead_code)]
-    fn test_greet() {
-        assert_eq!(greet(), "Hello from vireon-core");
-    }
+pub fn load_config() -> Result<Config, config::yaml::ConfigError> {
+    Config::load_from_file("/etc/vireon/config.yaml")
 }
