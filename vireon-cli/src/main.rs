@@ -1,4 +1,4 @@
-use vireon_core;
+use vireon_core::greet;
 fn main() {
-    println!("{}", vireon_core::greet());
+    println!("{}", greet());
 }

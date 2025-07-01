@@ -7,6 +7,7 @@ mod test {
 
     use super::*;
 
+    #[allow(dead_code)]
     fn test_greet() {
         assert_eq!(greet(), "Hello from vireon-core");
     }
